@@ -1,0 +1,15 @@
+for Download Mode
+GPIO0 pin --> GND
+
+for Operation Mode
+GOIO0 pin --> open
+
+for using AT command,
+folder ESP8266_flasher_V00170901_00_Cloud Update Ready
+esp8266_flasher.exe
+download firmware/ESP_8266_BIN0.92_115200.bin
+
+for using microPython,
+folder ESP8266_flasher_V00170901_00_Cloud Update Ready
+esp8266_flasher.exe
+download firmware/microEsp8266WorkShop.bin
