@@ -5,8 +5,8 @@ import machine
 html = """<!DOCTYPE html>
 <html>
 <head> <title>ESP8266 LED ON/OFF</title> </head>
-<h2>LED's on and off with Micropython</h2></center>
-<h3>(ESP8266 HUZZAH Feather)</h3></center>
+<h2> SeJu Machine Controller</h2></center>
+<h3>(Made by Hong and Leem)</h3></center>
 <form>
 LED RED&nbsp;&nbsp;:
 <button name="LED" value="ON_RED" type="submit">LED ON</button>
@@ -47,22 +47,22 @@ while True:
 
     if LEDON_RED == 6:
         print('TURN LED0 ON')
-        LED_RED.low()
+        LED_RED.on()
     if LEDOFF_RED == 6:
         print('TURN LED0 OFF')
-        LED_RED.high()
+        LED_RED.off()
     if LEDON_BLUE == 6:
         print('TURN LED2 ON')
-        LED_BLUE.low()
+        LED_BLUE.on()
     if LEDOFF_BLUE == 6:
         print('TURN LED2 OFF')
-        LED_BLUE.high()
+        LED_BLUE.off()
     if LEDON_EX == 6:
         print('TURN LED12 ON')
-        LED_EX.low()
+        LED_EX.on()
     if LEDOFF_EX == 6:
         print('TURN LED12 OFF')
-        LED_EX.high()
+        LED_EX.off()
 
     response = html
 
