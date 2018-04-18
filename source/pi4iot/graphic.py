@@ -6,7 +6,6 @@ draw graphic like line, circle and fill rectangle on the ssd1306 display
 import ssd1306
 from machine import I2C, Pin
 import framebuf
-
 i2c = I2C(sda=Pin(4), scl=Pin(5))
 display = ssd1306.SSD1306_I2C(128, 64, i2c)
 fbuf = framebuf.FrameBuffer(bytearray(20 * 100 * 2), 120, 50, framebuf.MONO_VLSB)
