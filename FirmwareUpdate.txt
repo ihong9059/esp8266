@@ -20,17 +20,6 @@ ESP8266Flasher 실행파일 사용
 firmware folder에서 최신 Version으로 download
 baudrate은 230400
 
-com4
-5E-CF-7F-86-92-C0: ap
-5C-CF-7F-86-92-C0: sta
-com9
-5E-CF-7F-87-4E-07: ap
-5C-CF-7F-87-4E-07: sta
-5E-CF-7F-17-8C-C0: ap
-5C-CF-7F-17-8C-C0: sta
-5E-CF-7F-87-4A-C0
-5C-CF-7F-87-4A-C0
-
 2. esplorer를 띠워
 webrepl_wifi.py로 ip 확인
 webrepl_wifi_setup.py로 webrepl Download준비
