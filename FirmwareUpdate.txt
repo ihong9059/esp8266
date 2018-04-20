@@ -27,3 +27,6 @@ webrepl_wifi_setup.py로 webrepl Download준비
 3. webrepl-master folder에서
 webrepl.html을 구동시켜
 main.py download
+
+windows mac address
+ipconfig /all
