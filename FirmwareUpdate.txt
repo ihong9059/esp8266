@@ -22,11 +22,13 @@ baudrate은 230400
 
 2. esplorer를 띠워
 webrepl_wifi.py로 ip 확인
-webrepl_wifi_setup.py로 webrepl Download준비
+webrepl_setup.py로 webrepl Download준비
+test는 여기서 수행
 
 3. webrepl-master folder에서
 webrepl.html을 구동시켜
 main.py download
+실제 Project File들은 여기서 Downlaod후 실행
 
 windows mac address
 ipconfig /all

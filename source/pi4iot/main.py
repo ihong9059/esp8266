@@ -1,6 +1,7 @@
 import socket
 import network
 import time
+import os
 
 def wifiAp():
     import ubinascii
@@ -25,12 +26,13 @@ def Server():
     addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #    sock.bind(('192.168.4.1', 80))
-    sock.bind('',80)
-#    sock.bind(addr)
+    sock.bind(addr)
     sock.listen(5)
     print('listening on', addr)
     count = 0
-
+    print('----------------- os dir --------------')
+    print(os.listdir())
+    
     while True:
         conn, addr = sock.accept()
         print("Got a connection from %s" % str(addr))
