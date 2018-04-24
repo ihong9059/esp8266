@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530634</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766066</millis>
   <sequence>5</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Load saved settings: Firmware:MicroPython</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530745</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766190</millis>
   <sequence>6</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530760</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766190</millis>
   <sequence>7</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530766</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766206</millis>
   <sequence>8</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -46,8 +46,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530772</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766206</millis>
   <sequence>9</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -57,8 +57,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530775</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766206</millis>
   <sequence>10</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -68,8 +68,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530781</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766222</millis>
   <sequence>11</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -79,8 +79,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530852</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766374</millis>
   <sequence>12</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -90,8 +90,8 @@
   <message>Set new color theme: Success.</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530859</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766390</millis>
   <sequence>13</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -101,8 +101,8 @@
   <message>Load saved settings: DONE.</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530863</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766390</millis>
   <sequence>14</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -112,8 +112,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:30</date>
-  <millis>1524493530870</millis>
+  <date>2018-04-25T03:16:06</date>
+  <millis>1524593766390</millis>
   <sequence>15</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -123,8 +123,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:31</date>
-  <millis>1524493531370</millis>
+  <date>2018-04-25T03:16:07</date>
+  <millis>1524593767055</millis>
   <sequence>16</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -134,8 +134,8 @@
   <message>Scan system...</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:31</date>
-  <millis>1524493531382</millis>
+  <date>2018-04-25T03:16:07</date>
+  <millis>1524593767102</millis>
   <sequence>17</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -145,8 +145,8 @@
   <message>found last saved serial port COM7</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:31</date>
-  <millis>1524493531385</millis>
+  <date>2018-04-25T03:16:07</date>
+  <millis>1524593767102</millis>
   <sequence>18</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -156,8 +156,8 @@
   <message>Scan done.</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:35</date>
-  <millis>1524493535969</millis>
+  <date>2018-04-25T03:16:09</date>
+  <millis>1524593769982</millis>
   <sequence>19</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -167,8 +167,8 @@
   <message>Serial port COM7 save as default.</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:35</date>
-  <millis>1524493535973</millis>
+  <date>2018-04-25T03:16:09</date>
+  <millis>1524593769982</millis>
   <sequence>20</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -178,8 +178,8 @@
   <message>Baud rate 115200 save as default.</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:35</date>
-  <millis>1524493535983</millis>
+  <date>2018-04-25T03:16:09</date>
+  <millis>1524593769982</millis>
   <sequence>21</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -189,8 +189,8 @@
   <message>Try to open port COM7, baud 115200, 8N1</message>
 </record>
 <record>
-  <date>2018-04-23T23:25:36</date>
-  <millis>1524493536012</millis>
+  <date>2018-04-25T03:16:10</date>
+  <millis>1524593770028</millis>
   <sequence>22</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -199,3 +199,1962 @@
   <thread>15</thread>
   <message>Open port COM7 - Success.</message>
 </record>
+<record>
+  <date>2018-04-25T03:18:26</date>
+  <millis>1524593906789</millis>
+  <sequence>23</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import os&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T03:18:41</date>
+  <millis>1524593921024</millis>
+  <sequence>24</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:print('hong')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:30</date>
+  <millis>1524593970678</millis>
+  <sequence>25</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open file main.py</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:30</date>
+  <millis>1524593970694</millis>
+  <sequence>26</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>File name: C:\esp8266\source\test\oled\main.py</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:30</date>
+  <millis>1524593970694</millis>
+  <sequence>27</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to load file main.py</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:30</date>
+  <millis>1524593970823</millis>
+  <sequence>28</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Loading main.py: Success.</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:30</date>
+  <millis>1524593970826</millis>
+  <sequence>29</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open "main.py": Success.</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972626</millis>
+  <sequence>30</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972626</millis>
+  <sequence>31</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972704</millis>
+  <sequence>32</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:"""</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972719</millis>
+  <sequence>33</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:Pi4IoT    -&gt; https://www.youtube.com/pi4iot</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972719</millis>
+  <sequence>34</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:draw symbol on the ssd1306 display</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972735</millis>
+  <sequence>35</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:"""</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972735</millis>
+  <sequence>36</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972750</millis>
+  <sequence>37</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import ssd1306</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972751</millis>
+  <sequence>38</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import machine</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972751</millis>
+  <sequence>39</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import sys</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972751</millis>
+  <sequence>40</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:from machine import I2C, Pin</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972751</millis>
+  <sequence>41</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972751</millis>
+  <sequence>42</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:i2c = I2C(sda=Pin(4), scl=Pin(5))</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972751</millis>
+  <sequence>43</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:display = ssd1306.SSD1306_I2C(64, 48, i2c)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972767</millis>
+  <sequence>44</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# display = ssd1306.SSD1306_I2C(128, 64, i2c)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972767</millis>
+  <sequence>45</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:display.fill(0)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972767</millis>
+  <sequence>46</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972767</millis>
+  <sequence>47</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:battery_emty = [</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972783</millis>
+  <sequence>48</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'00001111111111111111111111',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972783</millis>
+  <sequence>49</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'00001000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972783</millis>
+  <sequence>50</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'11111000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972783</millis>
+  <sequence>51</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'10000000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972783</millis>
+  <sequence>52</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'10000000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972783</millis>
+  <sequence>53</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'10000000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972783</millis>
+  <sequence>54</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'10000000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972798</millis>
+  <sequence>55</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'10000000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972798</millis>
+  <sequence>56</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'11111000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972798</millis>
+  <sequence>57</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'00001000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972798</millis>
+  <sequence>58</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'00001111111111111111111111']</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972814</millis>
+  <sequence>59</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972814</millis>
+  <sequence>60</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:battery_full = [</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972814</millis>
+  <sequence>61</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'00001111111111111111111111',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972814</millis>
+  <sequence>62</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'00001000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972829</millis>
+  <sequence>63</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'11111001111001111001111001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972829</millis>
+  <sequence>64</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'10000001111001111001111001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972829</millis>
+  <sequence>65</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'10000001111001111001111001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972829</millis>
+  <sequence>66</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'10000001111001111001111001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972845</millis>
+  <sequence>67</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'10000001111001111001111001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972845</millis>
+  <sequence>68</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'10000001111001111001111001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972845</millis>
+  <sequence>69</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'11111001111001111001111001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972845</millis>
+  <sequence>70</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'00001000000000000000000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972861</millis>
+  <sequence>71</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'00001111111111111111111111']</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972861</millis>
+  <sequence>72</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972861</millis>
+  <sequence>73</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:ant = [</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972861</millis>
+  <sequence>74</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'1111111111100000',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972861</millis>
+  <sequence>75</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'1000010000100000',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972861</millis>
+  <sequence>76</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'0100010001000000',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972876</millis>
+  <sequence>77</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'0010010010000000',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972876</millis>
+  <sequence>78</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'0001010100000001',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972876</millis>
+  <sequence>79</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'0000111000000101',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972876</millis>
+  <sequence>80</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'0000010000010101',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972876</millis>
+  <sequence>81</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'0000010001010101',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972876</millis>
+  <sequence>82</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'0000010101010101',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972892</millis>
+  <sequence>83</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'0000010101010101']</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972892</millis>
+  <sequence>84</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972892</millis>
+  <sequence>85</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:logo = [</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972892</millis>
+  <sequence>86</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'000000011111100000000',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972892</millis>
+  <sequence>87</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'000001100000011000000',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972907</millis>
+  <sequence>88</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'000110000000000110000',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972907</millis>
+  <sequence>89</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'001100100100000011000',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972907</millis>
+  <sequence>90</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'011001010000000001100',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972907</millis>
+  <sequence>91</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'011010100000000001100',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972907</millis>
+  <sequence>92</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'110101000000000000110',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972907</millis>
+  <sequence>93</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'110101000100000000110',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972923</millis>
+  <sequence>94</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'110101001110000001111',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972923</millis>
+  <sequence>95</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'110000000100000000110',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972923</millis>
+  <sequence>96</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'110000000000000000000',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972923</millis>
+  <sequence>97</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'011010001011000111111',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972923</millis>
+  <sequence>98</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'010100011011000001100',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972923</millis>
+  <sequence>99</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'010110111011011001100',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972923</millis>
+  <sequence>100</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'010110001011011001100',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972939</millis>
+  <sequence>101</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'000000101000010000000',</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972939</millis>
+  <sequence>102</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:'000000011111100000000']</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972939</millis>
+  <sequence>103</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972939</millis>
+  <sequence>104</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# for x, row in enumerate(ant):</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972939</millis>
+  <sequence>105</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     for y, col in enumerate(row):</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972954</millis>
+  <sequence>106</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#         if col == "1":</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972954</millis>
+  <sequence>107</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#             display.pixel(y+10, x, 1)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972954</millis>
+  <sequence>108</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972954</millis>
+  <sequence>109</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# for x, row in enumerate(logo):</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972954</millis>
+  <sequence>110</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     for y, col in enumerate(row):</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972970</millis>
+  <sequence>111</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#         if col == "1":</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972970</millis>
+  <sequence>112</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#             display.pixel(y+105, x+16, 1)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972970</millis>
+  <sequence>113</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972985</millis>
+  <sequence>114</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# for x, row in enumerate(battery_full):</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972985</millis>
+  <sequence>115</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     for y, col in enumerate(row):</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972985</millis>
+  <sequence>116</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#         if col == "1":</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972985</millis>
+  <sequence>117</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#             display.pixel(y+100, x, 1)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:32</date>
+  <millis>1524593972985</millis>
+  <sequence>118</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:count = 0</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973001</millis>
+  <sequence>119</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973001</millis>
+  <sequence>120</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# def dispOled(l1,l2,l3,l4):</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973001</millis>
+  <sequence>121</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     display.fill(0)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973001</millis>
+  <sequence>122</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     display.text(l1, 1, 0)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973001</millis>
+  <sequence>123</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     display.text(str(machine.freq()/1000000) + 'MHz', 1, 10)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973001</millis>
+  <sequence>124</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     print('CPU: ' + str(machine.freq()/1000000) + 'MHz')</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973017</millis>
+  <sequence>125</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     display.text(sys.platform + " " + sys.version, 1, 20)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973017</millis>
+  <sequence>126</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     display.text("V:" + sys.version, 1, 30)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973017</millis>
+  <sequence>127</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     display.text("C:{}".format(count), 1, 40)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973032</millis>
+  <sequence>128</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     print(sys.platform + " " + sys.version)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973032</millis>
+  <sequence>129</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#     display.show()</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973032</millis>
+  <sequence>130</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973032</millis>
+  <sequence>131</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:def dispOled(strList):</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973032</millis>
+  <sequence>132</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    display.fill(0)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973048</millis>
+  <sequence>133</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    lineY = 0</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973048</millis>
+  <sequence>134</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    for line in strList:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973048</millis>
+  <sequence>135</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:        display.text('L{}:{}'.format(lineY,line), 1, lineY*10)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973063</millis>
+  <sequence>136</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:        lineY += 1</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973063</millis>
+  <sequence>137</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    display.show()</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973063</millis>
+  <sequence>138</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973063</millis>
+  <sequence>139</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import time</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973079</millis>
+  <sequence>140</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# import signal</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973079</millis>
+  <sequence>141</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973079</millis>
+  <sequence>142</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:while True:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973095</millis>
+  <sequence>143</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    # if input() == 'q':</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973095</millis>
+  <sequence>144</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    #     print('End of loop')</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973095</millis>
+  <sequence>145</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    #     break</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973095</millis>
+  <sequence>146</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    count += 1</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973110</millis>
+  <sequence>147</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    if count &gt; 2000:</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973110</millis>
+  <sequence>148</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:        break</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973110</millis>
+  <sequence>149</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    strList = list()</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973110</millis>
+  <sequence>150</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    for i in range(6):</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973110</millis>
+  <sequence>151</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:        strList.append(count+i)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973126</millis>
+  <sequence>152</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    dispOled(strList)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973126</millis>
+  <sequence>153</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:    time.sleep(1)</message>
+</record>
+<record>
+  <date>2018-04-25T03:19:33</date>
+  <millis>1524593973141</millis>
+  <sequence>154</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Operation done. Duration = 515 ms</message>
+</record>
+<record>
+  <date>2018-04-25T03:48:20</date>
+  <millis>1524595700438</millis>
+  <sequence>155</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:print('hong')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T03:53:02</date>
+  <millis>1524595982707</millis>
+  <sequence>156</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import os&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T03:53:34</date>
+  <millis>1524596014234</millis>
+  <sequence>157</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:os.remove('main_line.py')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T03:54:02</date>
+  <millis>1524596042463</millis>
+  <sequence>158</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:print(os.listdir())&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T03:54:59</date>
+  <millis>1524596099055</millis>
+  <sequence>159</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:os.remove('dispOled_org.py'); print(os.listdir())&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:03:22</date>
+  <millis>1524600202600</millis>
+  <sequence>160</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta.ifconfig()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:05:45</date>
+  <millis>1524600345311</millis>
+  <sequence>161</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:help()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:06:14</date>
+  <millis>1524600374195</millis>
+  <sequence>162</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:ap_if = network.WLAN(network.AP_IF) &lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:06:27</date>
+  <millis>1524600387215</millis>
+  <sequence>163</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:06:39</date>
+  <millis>1524600399748</millis>
+  <sequence>164</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta_if = network.WLAN(network.STA_IF); sta_if.active(True)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:07:23</date>
+  <millis>1524600443081</millis>
+  <sequence>165</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta_if.connect("utsol_tc140", "09090909")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:07:42</date>
+  <millis>1524600462051</millis>
+  <sequence>166</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta_if.config()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:07:55</date>
+  <millis>1524600475426</millis>
+  <sequence>167</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta_if.ifconfig()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:08:19</date>
+  <millis>1524600499707</millis>
+  <sequence>168</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta_if.ifconfig()[0]&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:16:03</date>
+  <millis>1524600963327</millis>
+  <sequence>169</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:help()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:16:28</date>
+  <millis>1524600988306</millis>
+  <sequence>170</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open file webrepl_wifiSta.py</message>
+</record>
+<record>
+  <date>2018-04-25T05:16:28</date>
+  <millis>1524600988306</millis>
+  <sequence>171</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>File name: C:\esp8266\Esp8266Flasher\webrepl_wifiSta.py</message>
+</record>
+<record>
+  <date>2018-04-25T05:16:28</date>
+  <millis>1524600988306</millis>
+  <sequence>172</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to load file webrepl_wifiSta.py</message>
+</record>
+<record>
+  <date>2018-04-25T05:16:28</date>
+  <millis>1524600988337</millis>
+  <sequence>173</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Loading webrepl_wifiSta.py: Success.</message>
+</record>
+<record>
+  <date>2018-04-25T05:16:28</date>
+  <millis>1524600988353</millis>
+  <sequence>174</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open "webrepl_wifiSta.py": Success.</message>
+</record>
+<record>
+  <date>2018-04-25T05:17:25</date>
+  <millis>1524601045324</millis>
+  <sequence>175</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2018-04-25T05:17:25</date>
+  <millis>1524601045324</millis>
+  <sequence>176</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-04-25T05:17:25</date>
+  <millis>1524601045370</millis>
+  <sequence>177</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import network</message>
+</record>
+<record>
+  <date>2018-04-25T05:17:25</date>
+  <millis>1524601045370</millis>
+  <sequence>178</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta = network.WLAN(network.STA_IF)</message>
+</record>
+<record>
+  <date>2018-04-25T05:17:25</date>
+  <millis>1524601045386</millis>
+  <sequence>179</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta.active(True)</message>
+</record>
+<record>
+  <date>2018-04-25T05:17:25</date>
+  <millis>1524601045386</millis>
+  <sequence>180</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta.connect("utsol_tc140", "09090909")</message>
+</record>
+<record>
+  <date>2018-04-25T05:17:25</date>
+  <millis>1524601045402</millis>
+  <sequence>181</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:print(sta.ifconfig()[0])</message>
+</record>
+<record>
+  <date>2018-04-25T05:17:25</date>
+  <millis>1524601045402</millis>
+  <sequence>182</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Operation done. Duration = 94 ms</message>
+</record>
+<record>
+  <date>2018-04-25T05:23:48</date>
+  <millis>1524601428605</millis>
+  <sequence>183</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2018-04-25T05:23:48</date>
+  <millis>1524601428621</millis>
+  <sequence>184</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-04-25T05:23:48</date>
+  <millis>1524601428652</millis>
+  <sequence>185</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import network</message>
+</record>
+<record>
+  <date>2018-04-25T05:23:48</date>
+  <millis>1524601428652</millis>
+  <sequence>186</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta = network.WLAN(network.STA_IF)</message>
+</record>
+<record>
+  <date>2018-04-25T05:23:48</date>
+  <millis>1524601428652</millis>
+  <sequence>187</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta.active(True)</message>
+</record>
+<record>
+  <date>2018-04-25T05:23:48</date>
+  <millis>1524601428668</millis>
+  <sequence>188</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:sta.connect("utsol_tc140", "09090909")</message>
+</record>
+<record>
+  <date>2018-04-25T05:23:48</date>
+  <millis>1524601428683</millis>
+  <sequence>189</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:print(sta.ifconfig()[0])</message>
+</record>
+<record>
+  <date>2018-04-25T05:23:48</date>
+  <millis>1524601428683</millis>
+  <sequence>190</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Operation done. Duration = 78 ms</message>
+</record>
+<record>
+  <date>2018-04-25T05:32:58</date>
+  <millis>1524601978326</millis>
+  <sequence>191</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import network&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:33:23</date>
+  <millis>1524602003255</millis>
+  <sequence>192</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import socket&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-04-25T05:51:28</date>
+  <millis>1524603088202</millis>
+  <sequence>193</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2018-04-25T05:51:31</date>
+  <millis>1524603091113</millis>
+  <sequence>194</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>We save known file webrepl_wifiSta.py</message>
+</record>
+<record>
+  <date>2018-04-25T05:51:31</date>
+  <millis>1524603091113</millis>
+  <sequence>195</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to saving file webrepl_wifiSta.py ...</message>
+</record>
+<record>
+  <date>2018-04-25T05:51:31</date>
+  <millis>1524603091128</millis>
+  <sequence>196</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Save file webrepl_wifiSta.py: Success.</message>
+</record>
+<record>
+  <date>2018-04-25T05:51:31</date>
+  <millis>1524603091227</millis>
+  <sequence>197</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2018-04-25T05:51:31</date>
+  <millis>1524603091227</millis>
+  <sequence>198</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2018-04-25T05:51:31</date>
+  <millis>1524603091243</millis>
+  <sequence>199</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>FileTab cleared: Success.</message>
+</record>
+<record>
+  <date>2018-04-25T05:51:31</date>
+  <millis>1524603091243</millis>
+  <sequence>200</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>File close: Success.</message>
+</record>
+</log>

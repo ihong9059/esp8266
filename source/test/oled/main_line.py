@@ -46,11 +46,12 @@ def draw_circle(display, x0, y0, radius):
             err += 1 - 2*x
 
 display.fill(0)
+draw_line(display,10, 20, 40, 30)
 # draw_line(display,1,2,40,11)
 # draw_circle(display, 20, 40 , 20)
 
-fbuf.text('Pi4IoT', 0, 0, 0xffff)
+fbuf.text('Pi4IoT', 40, 30, 0xffff)
 fbuf.hline(0, 10, 50, 0xffff)
-fbuf.fill_rect(10, 20, 40, 30, 0xffff)
+# fbuf.fill_rect(10, 20, 40, 30, 0xffff)
 display.framebuf.blit(fbuf, 60, 0)
 display.show()

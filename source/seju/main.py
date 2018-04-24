@@ -1,9 +1,7 @@
-import socket
+import usocket as socket
 import machine
 import network
-from machine import PWM
-from machine import ADC
-from machine import UART
+from dispOled import dispOled
 
 def wifiAp():
     import ubinascii
@@ -25,9 +23,11 @@ wifiSta()
 
 def webServer():
     print('------------------------- Setup Ap End -------------')
-    uart1 = UART(1, 115200)#pin gpio2 only tx
-    # uart2 = UART(2, 115200)
-    adc = ADC(0) #max 1023
+    # sta = network.WLAN(network.STA_IF)
+    # sta.active(True)
+    # sta.connect("utsol_tc140", "09090909")
+    # staIp = sta.ifconfig()[0]
+    # print('My Ip Address:{}'.format(staIp))
 
     #HTML to send to browsers
     html = """<!DOCTYPE html>
@@ -38,7 +38,7 @@ def webServer():
     <h2> 위브 하늘채 휘트니스 센터 </h2>
     <h2>세주 런닝 머신 컨트롤</h2>
 
-    <h3>made by UTTEC, 임호균 선생 주문</h3>
+    <h3>made by UTTEC and 세주에프에이</h3>
     <h3>2018.04.19</h3>
 
     <form>
@@ -50,79 +50,81 @@ def webServer():
     <button name="LED" value="OFF_BLUE" type="submit">LED OFF</button><br><br>
     LED Extern:
     <button name="LED" value="ON_EX" type="submit">LED ON</button>
-    <button name="LED" value="OFF_EX" type="submit">LED OFF</button>
+    <button name="LED" value="OFF_EX" type="submit">LED OFF</button><br><br>
+
+    Stop Demo:
+    <button name="LED" value="ON_STOP" type="submit">EXIT</button>
+
     </form>
     </html>
     """
-
-    # spi = machine.SPI(1, baudrate=5000000, polarity=0, phase=0)
-
-    spi = machine.SPI(1, baudrate=5000000, polarity=0, phase=0)
-    cs = machine.Pin(15, machine.Pin.OUT)
-    cs.on()
-
-    #Setup PINS
-    # LED_RED = machine.Pin(4, machine.Pin.OUT)
-    LED_RED = machine.Pin(4, machine.Pin.OUT)
-    button = machine.Pin(5, machine.Pin.IN, machine.Pin.PULL_UP)
-    # LED_EX = machine.Pin(16, machine.Pin.OUT)
-    LED_EX = PWM(machine.Pin(12)) # basic 500Hz
-    # pins 0, 2, 4, 5, 12, 13, 14 and 15 all support PWM
-    LED_EX.freq(1000) #1KHzO
-
     #Setup Socket WebServer
-    addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
-    # addr = socket.getaddrinfo('192.168.4.3', 80)[0][-1]
+    # addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
+    # addr = socket.getaddrinfo('192.168.185.14', 80)[0][-1]
+    addr = socket.getaddrinfo('192.168.4.1', 80)[0][-1]
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # s.bind(('', 80))
     s.bind(addr)
     s.listen(5)
-    print('listening on', addr)
+    print('My Addr:{}'.format(addr))
+    count = 0
+    dispList = ['SeJu FA','20180425','Red  Off', 'Blue Off','Ex   Off']
+    dispOled(dispList)
 
     while True:
         conn, addr = s.accept()
-        print("Got a connection from %s" % str(addr))
         request = conn.recv(1024)
-        print("Content = %s" % str(request))
+        count += 1
+        if count%2:
+            print("connection from %s" % str(addr))
+            print("Content = %s" % str(request))
         request = str(request)
-        LEDON_RED = request.find('ON_RED')
-        # LEDON_RED = request.find('/?LED=ON_RED')
+        LEDON_RED = request.find('/?LED=ON_RED')
         LEDOFF_RED = request.find('/?LED=OFF_RED')
         LEDON_BLUE = request.find('/?LED=ON_BLUE')
         LEDOFF_BLUE = request.find('/?LED=OFF_BLUE')
         LEDON_EX = request.find('/?LED=ON_EX')
         LEDOFF_EX = request.find('/?LED=OFF_EX')
-        print('LEDON_RED:{}'.format(LEDON_RED))
+        EXIT = request.find('/?LED=ON_STOP')
+        # print('LEDON_RED:{}'.format(LEDON_RED))
         if LEDON_RED == 6:
-            print('TURN LED0 ON')
-            LED_RED.on()
+            print('Red Led ON')
+            dispList[2]='Red   On'
         if LEDOFF_RED == 6:
-            print('TURN LED0 OFF')
-            LED_RED.off()
+            print('Red Led OFF')
+            dispList[2]='Red  Off'
 
-        if LEDON_BLUE == 6 or LEDOFF_BLUE == 6:
-            if button.value():
-                print('button high')
-            else:
-                print('button low')
-            print(adc.read())
-            uart1.write('UU')
-
-            cs.off()
-            data = spi.read(4)
-            cs.on()
+        if LEDON_BLUE == 6:
+            print('Blue Led ON')
+            dispList[3]='Blue  On'
+        if LEDOFF_BLUE == 6:
+            print('Blue Led OFF')
+            dispList[3]='Blue Off'
 
         if LEDON_EX == 6:
-            print('TURN LED12 ON')
-            LED_EX.duty(700)
+            print('External Led ON')
+            dispList[4]='Ex    On'
             # LED_EX.on()
         if LEDOFF_EX == 6:
-            print('TURN LED12 OFF')
-            LED_EX.duty(512)
+            print('External Led OFF')
+            dispList[4]='Ex   Off'
             # LED_EX.off()
+        if EXIT == 6:
+            print('Bye Bye Seju Demo')
+            dispList[2]='Bye Bye'
+            dispList[3]='SejuDemo'
+            dispList[4]='Good Job'
+
+            dispOled(dispList)
+            response = html
+            conn.send(response)
+            conn.close()
+            break
 
         response = html
-
         conn.send(response)
         conn.close()
-webServer()
+
+        dispOled(dispList)
+if __name__ == '__main__':
+    webServer()
