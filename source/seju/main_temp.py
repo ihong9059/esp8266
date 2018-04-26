@@ -23,37 +23,37 @@ wifiSta()
 
 def webServer():
     print('------------------------- Setup Ap End -------------')
-    #HTML to send to browsers
-    # html = """
-    # <!DOCTYPE html>
-    # <html>
-    # <head> <title>ESP8266 LED ON/OFF</title>
-    #     <meta charset="utf-8">
-    # </head>
-    # <h2> 위브 하늘채 휘트니스 센터 </h2>
-    # <h2>세주 런닝 머신 컨트롤</h2>
-    #
-    # <h3>made by UTTEC and 세주에프에이</h3>
-    # <h3>2018.04.19</h3>
-    #
-    # <form>
-    # LED RED:
-    # <button name="LED" value="ON_RED" type="submit" style="height:40px; width:120px">LED ON</button>
-    # <button name="LED" value="OFF_RED" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
-    # LED BLUE:
-    # <button name="LED" value="ON_BLUE" type="submit" style="height:40px;width:120px">LED ON</button>
-    # <button name="LED" value="OFF_BLUE" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
-    # LED Extern:
-    # <button name="LED" value="ON_EX" type="submit" style="height:40px;width:120px">LED ON</button>
-    # <button name="LED" value="OFF_EX" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
-    # </form>
-    # </html>
-    # """
-    html = ''
-    with open('seju.html','r') as f:
-        html=f.read()
+    # sta = network.WLAN(network.STA_IF)
+    # sta.active(True)
+    # sta.connect("utsol_tc140", "09090909")
+    # staIp = sta.ifconfig()[0]
+    # print('My Ip Address:{}'.format(staIp))
 
-    print(html)
+    #HTML to send to browsers
+    html = """<!DOCTYPE html>
+    <html>
+    <head> <title>ESP8266 LED ON/OFF</title>
+        <meta charset="utf-8">
+    </head>
+    <h2> 위브 하늘채 휘트니스 센터 </h2>
+    <h2>세주 런닝 머신 컨트롤</h2>
+
+    <h3>made by UTTEC and 세주에프에이</h3>
+    <h3>2018.04.19</h3>
+
+    <form>
+    LED RED&nbsp;&nbsp;:
+    <button name="LED" value="ON_RED" type="submit" style="height:40px; width:120px">LED ON</button>
+    <button name="LED" value="OFF_RED" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
+    LED BLUE:
+    <button name="LED" value="ON_BLUE" type="submit" style="height:40px;width:120px">LED ON</button>
+    <button name="LED" value="OFF_BLUE" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
+    LED Extern:
+    <button name="LED" value="ON_EX" type="submit" style="height:40px;width:120px">LED ON</button>
+    <button name="LED" value="OFF_EX" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
+    </form>
+    </html>
+    """
     #Setup Socket WebServer
     addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
     # addr = socket.getaddrinfo('192.168.185.14', 80)[0][-1]

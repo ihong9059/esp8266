@@ -1,15 +1,20 @@
 import usocket as socket
 import machine
 import network
-from dispOled import dispOled
+from machine import Pin
+
+pinRed=Pin(5, machine.Pin.OUT)
+pinBlue=Pin(4, machine.Pin.OUT)
+pinEx=Pin(14, machine.Pin.OUT)
 
 def wifiAp():
     import ubinascii
     ap_if = network.WLAN(network.AP_IF)
-    ap_if.active(True)
-    essid = b"UTTEC-%s" % ubinascii.hexlify(ap_if.config("mac")[-3:])
-    ap_if.config(essid=essid, authmode=network.AUTH_WPA_WPA2_PSK, password=b"123456789a")
-    print('mac:',b"UTTEC-%s" % ubinascii.hexlify(ap_if.config("mac")[:]))
+    ap_if.active(False)
+    # ap_if.active(True)
+    # essid = b"UTTEC-%s" % ubinascii.hexlify(ap_if.config("mac")[-3:])
+    # ap_if.config(essid=essid, authmode=network.AUTH_WPA_WPA2_PSK, password=b"123456789a")
+    # print('mac:',b"UTTEC-%s" % ubinascii.hexlify(ap_if.config("mac")[:]))
 
 def wifiSta():
     sta = network.WLAN(network.STA_IF)
@@ -23,37 +28,41 @@ wifiSta()
 
 def webServer():
     print('------------------------- Setup Ap End -------------')
-    #HTML to send to browsers
-    # html = """
-    # <!DOCTYPE html>
-    # <html>
-    # <head> <title>ESP8266 LED ON/OFF</title>
-    #     <meta charset="utf-8">
-    # </head>
-    # <h2> 위브 하늘채 휘트니스 센터 </h2>
-    # <h2>세주 런닝 머신 컨트롤</h2>
-    #
-    # <h3>made by UTTEC and 세주에프에이</h3>
-    # <h3>2018.04.19</h3>
-    #
-    # <form>
-    # LED RED:
-    # <button name="LED" value="ON_RED" type="submit" style="height:40px; width:120px">LED ON</button>
-    # <button name="LED" value="OFF_RED" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
-    # LED BLUE:
-    # <button name="LED" value="ON_BLUE" type="submit" style="height:40px;width:120px">LED ON</button>
-    # <button name="LED" value="OFF_BLUE" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
-    # LED Extern:
-    # <button name="LED" value="ON_EX" type="submit" style="height:40px;width:120px">LED ON</button>
-    # <button name="LED" value="OFF_EX" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
-    # </form>
-    # </html>
-    # """
-    html = ''
-    with open('seju.html','r') as f:
-        html=f.read()
+    # sta = network.WLAN(network.STA_IF)
+    # sta.active(True)
+    # sta.connect("utsol_tc140", "09090909")
+    # staIp = sta.ifconfig()[0]
+    # print('My Ip Address:{}'.format(staIp))
 
-    print(html)
+    #HTML to send to browsers
+    html = """<!DOCTYPE html>
+    <html>
+    <head> <title>ESP8266 LED ON/OFF</title>
+        <meta charset="utf-8">
+    </head>
+    <h2> 위브 하늘채 휘트니스 센터 </h2>
+    <h2>세주 런닝 머신 컨트롤</h2>
+
+    <h3>made by UTTEC and 세주에프에이</h3>
+    <h3>2018.04.19</h3>
+
+    <form>
+    LED RED&nbsp;&nbsp;:
+    <button name="LED" value="ON_RED" type="submit">LED ON</button>
+    <button name="LED" value="OFF_RED" type="submit">LED OFF</button><br><br>
+    LED BLUE:
+    <button name="LED" value="ON_BLUE" type="submit">LED ON</button>
+    <button name="LED" value="OFF_BLUE" type="submit">LED OFF</button><br><br>
+    LED Extern:
+    <button name="LED" value="ON_EX" type="submit">LED ON</button>
+    <button name="LED" value="OFF_EX" type="submit">LED OFF</button><br><br>
+
+    Stop Demo:
+    <button name="LED" value="ON_STOP" type="submit">EXIT</button>
+
+    </form>
+    </html>
+    """
     #Setup Socket WebServer
     addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
     # addr = socket.getaddrinfo('192.168.185.14', 80)[0][-1]
@@ -64,8 +73,6 @@ def webServer():
     s.listen(5)
     print('My Addr:{}'.format(addr))
     count = 0
-    dispList = ['SeJu FA','20180425','Red  Off', 'Blue Off','Ex   Off']
-    dispOled(dispList)
 
     while True:
         conn, addr = s.accept()
@@ -85,28 +92,31 @@ def webServer():
         # print('LEDON_RED:{}'.format(LEDON_RED))
         if LEDON_RED == 6:
             print('Red Led ON')
-            dispList[2] = 'Red   On'
+            pinRed.off()
         if LEDOFF_RED == 6:
             print('Red Led OFF')
-            dispList[2] = 'Red  Off'
+            pinRed.on()
 
         if LEDON_BLUE == 6:
             print('Blue Led ON')
-            dispList[3] = 'Blue  On'
+            pinBlue.off()
         if LEDOFF_BLUE == 6:
             print('Blue Led OFF')
-            dispList[3] = 'Blue Off'
+            pinBlue.on()
 
         if LEDON_EX == 6:
-            print('External Led ON')
-            dispList[4] = 'Ex    On'
+            print('External Led On')
+            pinEx.off()
             # LED_EX.on()
         if LEDOFF_EX == 6:
             print('External Led OFF')
-            dispList[4] = 'Ex   Off'
+            pinEx.on()
             # LED_EX.off()
         if EXIT == 6:
             print('Bye Bye Seju Demo')
+            pinRed.off()
+            pinBlue.off()
+            pinEx.off()
 
             response = html
             conn.send(response)
@@ -116,7 +126,6 @@ def webServer():
         response = html
         conn.send(response)
         conn.close()
-        dispOled(dispList)
 
 if __name__ == '__main__':
     webServer()

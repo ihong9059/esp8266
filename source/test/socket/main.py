@@ -16,7 +16,6 @@ def wifiSta():
     # 8764b1
 #    sta.connect("UTTEC-8764b1", "123456789a")
     sta.connect("utsol_tc140", "09090909")
-
 wifiAp()
 wifiSta()
 
@@ -59,6 +58,5 @@ def Client():
         sock.close()
         print('Received',repr(data))
         time.sleep(1)
-
 Server()
 #Client()
