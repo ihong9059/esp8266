@@ -2,6 +2,23 @@ import usocket as socket
 import machine
 import network
 from dispOled import dispOled
+from machine import Pin
+from time import sleep
+
+p0 = Pin(0, Pin.IN)
+
+gCount = 0
+def callback(p):
+    global gCount
+    gCount += 1
+    print('pin change', p)
+    print('gCount:{}'.format(gCount))
+    receive = input('Wait, input your request now==> ')
+    sleep(0.2)
+    print('I received from Machine:{}'.format(receive))
+    # input
+
+p0.irq(trigger = Pin.IRQ_FALLING, handler = callback)
 
 def wifiAp():
     import ubinascii
@@ -23,32 +40,6 @@ wifiSta()
 
 def webServer():
     print('------------------------- Setup Ap End -------------')
-    #HTML to send to browsers
-    # html = """
-    # <!DOCTYPE html>
-    # <html>
-    # <head> <title>ESP8266 LED ON/OFF</title>
-    #     <meta charset="utf-8">
-    # </head>
-    # <h2> 위브 하늘채 휘트니스 센터 </h2>
-    # <h2>세주 런닝 머신 컨트롤</h2>
-    #
-    # <h3>made by UTTEC and 세주에프에이</h3>
-    # <h3>2018.04.19</h3>
-    #
-    # <form>
-    # LED RED:
-    # <button name="LED" value="ON_RED" type="submit" style="height:40px; width:120px">LED ON</button>
-    # <button name="LED" value="OFF_RED" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
-    # LED BLUE:
-    # <button name="LED" value="ON_BLUE" type="submit" style="height:40px;width:120px">LED ON</button>
-    # <button name="LED" value="OFF_BLUE" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
-    # LED Extern:
-    # <button name="LED" value="ON_EX" type="submit" style="height:40px;width:120px">LED ON</button>
-    # <button name="LED" value="OFF_EX" type="submit" style="height:40px;width:120px">LED OFF</button><br><br>
-    # </form>
-    # </html>
-    # """
     html = ''
     with open('seju.html','r') as f:
         html=f.read()
