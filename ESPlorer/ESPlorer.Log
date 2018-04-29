@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-04-27T16:02:21</date>
-  <millis>1524812541942</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742408</millis>
   <sequence>5</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Load saved settings: Firmware:MicroPython</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542004</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742464</millis>
   <sequence>6</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542020</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742483</millis>
   <sequence>7</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542035</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742491</millis>
   <sequence>8</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -46,8 +46,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542051</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742498</millis>
   <sequence>9</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -57,8 +57,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542051</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742502</millis>
   <sequence>10</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -68,8 +68,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542051</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742508</millis>
   <sequence>11</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -79,8 +79,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542285</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742708</millis>
   <sequence>12</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -90,8 +90,8 @@
   <message>Set new color theme: Success.</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542300</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742714</millis>
   <sequence>13</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -101,8 +101,8 @@
   <message>Load saved settings: DONE.</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542300</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742720</millis>
   <sequence>14</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -112,8 +112,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542316</millis>
+  <date>2018-04-29T23:22:22</date>
+  <millis>1525011742729</millis>
   <sequence>15</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -123,8 +123,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542800</millis>
+  <date>2018-04-29T23:22:23</date>
+  <millis>1525011743136</millis>
   <sequence>16</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -134,19 +134,19 @@
   <message>Scan system...</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542831</millis>
+  <date>2018-04-29T23:22:23</date>
+  <millis>1525011743183</millis>
   <sequence>17</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>found last saved serial port COM35</message>
+  <message>found last saved serial port COM7</message>
 </record>
 <record>
-  <date>2018-04-27T16:02:22</date>
-  <millis>1524812542846</millis>
+  <date>2018-04-29T23:22:23</date>
+  <millis>1525011743183</millis>
   <sequence>18</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -156,19 +156,19 @@
   <message>Scan done.</message>
 </record>
 <record>
-  <date>2018-04-27T16:03:04</date>
-  <millis>1524812584747</millis>
+  <date>2018-04-29T23:22:25</date>
+  <millis>1525011745432</millis>
   <sequence>19</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>Serial port COM35 save as default.</message>
+  <message>Serial port COM7 save as default.</message>
 </record>
 <record>
-  <date>2018-04-27T16:03:04</date>
-  <millis>1524812584763</millis>
+  <date>2018-04-29T23:22:25</date>
+  <millis>1525011745432</millis>
   <sequence>20</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -178,284 +178,31 @@
   <message>Baud rate 115200 save as default.</message>
 </record>
 <record>
-  <date>2018-04-27T16:03:04</date>
-  <millis>1524812584763</millis>
+  <date>2018-04-29T23:22:25</date>
+  <millis>1525011745432</millis>
   <sequence>21</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>Try to open port COM35, baud 115200, 8N1</message>
+  <message>Try to open port COM7, baud 115200, 8N1</message>
 </record>
 <record>
-  <date>2018-04-27T16:03:04</date>
-  <millis>1524812584830</millis>
+  <date>2018-04-29T23:22:25</date>
+  <millis>1525011745464</millis>
   <sequence>22</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>Open port COM35 - Success.</message>
+  <message>Open port COM7 - Success.</message>
 </record>
 <record>
-  <date>2018-04-27T16:31:09</date>
-  <millis>1524814269813</millis>
+  <date>2018-04-30T01:22:06</date>
+  <millis>1525018926761</millis>
   <sequence>23</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>jssc.SerialPortException: Port name - COM35; Method name - setEventsMask(); Exception type - Can't set mask.</message>
-</record>
-<record>
-  <date>2018-04-27T16:31:09</date>
-  <millis>1524814269829</millis>
-  <sequence>24</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Close port COM35 - unknown error.</message>
-</record>
-<record>
-  <date>2018-04-27T16:31:11</date>
-  <millis>1524814271738</millis>
-  <sequence>25</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Serial port COM35 save as default.</message>
-</record>
-<record>
-  <date>2018-04-27T16:31:11</date>
-  <millis>1524814271738</millis>
-  <sequence>26</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Baud rate 115200 save as default.</message>
-</record>
-<record>
-  <date>2018-04-27T16:31:11</date>
-  <millis>1524814271738</millis>
-  <sequence>27</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Try to open port COM35, baud 115200, 8N1</message>
-</record>
-<record>
-  <date>2018-04-27T16:31:11</date>
-  <millis>1524814271753</millis>
-  <sequence>28</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Open port COM35 - Success.</message>
-</record>
-<record>
-  <date>2018-04-27T16:34:47</date>
-  <millis>1524814487415</millis>
-  <sequence>29</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Close port COM35 - Success.</message>
-</record>
-<record>
-  <date>2018-04-27T16:34:51</date>
-  <millis>1524814491519</millis>
-  <sequence>30</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Serial port COM35 save as default.</message>
-</record>
-<record>
-  <date>2018-04-27T16:34:51</date>
-  <millis>1524814491519</millis>
-  <sequence>31</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Baud rate 115200 save as default.</message>
-</record>
-<record>
-  <date>2018-04-27T16:34:51</date>
-  <millis>1524814491535</millis>
-  <sequence>32</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Try to open port COM35, baud 115200, 8N1</message>
-</record>
-<record>
-  <date>2018-04-27T16:34:51</date>
-  <millis>1524814491535</millis>
-  <sequence>33</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Open port COM35 - Success.</message>
-</record>
-<record>
-  <date>2018-04-27T16:53:01</date>
-  <millis>1524815581926</millis>
-  <sequence>34</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hong&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:53:08</date>
-  <millis>1524815588125</millis>
-  <sequence>35</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hongkwang&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:53:14</date>
-  <millis>1524815594011</millis>
-  <sequence>36</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hongkwangseon&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:53:19</date>
-  <millis>1524815599282</millis>
-  <sequence>37</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hongkwangseongood&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:53:27</date>
-  <millis>1524815607474</millis>
-  <sequence>38</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hongkwangseongood stop&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:53:31</date>
-  <millis>1524815611314</millis>
-  <sequence>39</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hongkwangseongood stop&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:53:33</date>
-  <millis>1524815613753</millis>
-  <sequence>40</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hongkwangseongood stop&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:57:42</date>
-  <millis>1524815862145</millis>
-  <sequence>41</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hongkwangseongood stop&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:57:49</date>
-  <millis>1524815869236</millis>
-  <sequence>42</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hongkwangseongood stop&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:57:53</date>
-  <millis>1524815873992</millis>
-  <sequence>43</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hongkwangseongood stop&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:57:57</date>
-  <millis>1524815877866</millis>
-  <sequence>44</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>sending:hongkwangseongood stop&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-04-27T16:58:05</date>
-  <millis>1524815885997</millis>
-  <sequence>45</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>Close port COM35 - Success.</message>
-</record>
-<record>
-  <date>2018-04-27T17:25:02</date>
-  <millis>1524817502662</millis>
-  <sequence>46</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -464,9 +211,9 @@
   <message>FileTab cleared: Success.</message>
 </record>
 <record>
-  <date>2018-04-27T17:25:02</date>
-  <millis>1524817502662</millis>
-  <sequence>47</sequence>
+  <date>2018-04-30T01:22:06</date>
+  <millis>1525018926761</millis>
+  <sequence>24</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>

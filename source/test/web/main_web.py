@@ -36,9 +36,28 @@ def wifiSta():
     # sta.connect("UTTEC-8764b1", "123456789a")
     # sta.connect("uttecSale4", "123456789a")
     sta.connect("utsol_tc140", "09090909")
+    # sleep(3)
+    count = 0
+    while sta.isconnected() == False:
+        sleep(1)
+        print('wait wifi connection, elapsed Time:{}'.format(count))
+        count +=1
+    print('My ip Address:{}'.format(sta.ifconfig()))
+    print('********************End of wifiSta')
 
 wifiAp()
 wifiSta()
+
+def mySend(conn, msg, MSGLEN):
+    print('MSGLEN:{}'.format(MSGLEN))
+    totalsent = 0
+    while totalsent < MSGLEN:
+        sent = conn.send(msg[totalsent:])
+        if sent == 0:
+            raise RuntimeError("socket connection broken")
+        totalsent = totalsent + sent
+        print('totalsent:{}'.format(totalsent))
+    # conn.close()
 
 def webServer():
     print('------------------------- Setup Ap End -------------')
@@ -47,7 +66,8 @@ def webServer():
     with open('seju.html','r') as f:
         html_org=f.read()
 
-    # print(html)
+    # print(html_org)
+    # print('Size of html_org:{}'.format(len(html_org)))
     #Setup Socket WebServer
     addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
     # addr = socket.getaddrinfo('192.168.185.14', 80)[0][-1]
@@ -61,22 +81,24 @@ def webServer():
     dispList = ['SeJu FA','20180425','Red  Off', 'Blue Off','Ex   Off']
     dispOled(dispList)
 
+    fileSize = 2048
     while True:
         html = html_org
         conn, addr = s.accept()
-        request = conn.recv(1024)
+        request = conn.recv(fileSize)
+        # request = myReceive(conn)
         count += 1
         if count%2:
             print("connection from %s" % str(addr))
             print("Content = %s" % str(request))
         request = str(request)
-        LEDON_RED = request.find('/?LED=ON_RED')
-        LEDOFF_RED = request.find('/?LED=OFF_RED')
-        LEDON_BLUE = request.find('/?LED=ON_BLUE')
-        LEDOFF_BLUE = request.find('/?LED=OFF_BLUE')
-        LEDON_EX = request.find('/?LED=ON_EX')
-        LEDOFF_EX = request.find('/?LED=OFF_EX')
-        EXIT = request.find('/?LED=ON_STOP')
+        LEDON_RED = request.find('/?LED=ON_R')
+        LEDOFF_RED = request.find('/?LED=OFF_R')
+        LEDON_BLUE = request.find('/?LED=ON_B')
+        LEDOFF_BLUE = request.find('/?LED=OFF_B')
+        LEDON_EX = request.find('/?LED=ON_E')
+        LEDOFF_EX = request.find('/?LED=OFF_E')
+        EXIT = request.find('/?LED=Exit')
         # print('LEDON_RED:{}'.format(LEDON_RED))
         if LEDON_RED == 6:
             print('Red Led ON')
@@ -103,16 +125,23 @@ def webServer():
         if EXIT == 6:
             print('Bye Bye Seju Demo')
 
+            # findStr = '<h3>2018.04.28</h3>'
+            # findIndex = html.find(findStr)
+            # html = html[:findIndex]+'<h3>New String</h3>'+html[findIndex:]
             response = html
-            conn.send(response)
-            conn.close()
+            mySend(conn, response, len(response))
+            # conn.send(response)
+            # conn.close()
             break
 
-        findStr = '<h3>2018.04.19</h3>'
-        findIndex = html.find(findStr)
-        html = html[:findIndex]+'<h3>New String</h3>'+html[findIndex:]
+        # findStr = '<h3>2018.04.28</h3>'
+        # findIndex = html.find(findStr)
+        # html = html[:findIndex]+'<h3>New String</h3>'+html[findIndex:]
         response = html
-        conn.send(response)
+        # print(response)
+        # print('size of html:{}'.format(len(response)))
+        mySend(conn, response, len(response))
+        # conn.send(response)
         conn.close()
         dispOled(dispList)
 
