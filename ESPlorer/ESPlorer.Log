@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742408</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839582</millis>
   <sequence>5</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Load saved settings: Firmware:MicroPython</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742464</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839629</millis>
   <sequence>6</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742483</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839644</millis>
   <sequence>7</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742491</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839660</millis>
   <sequence>8</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -46,8 +46,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742498</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839660</millis>
   <sequence>9</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -57,8 +57,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742502</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839675</millis>
   <sequence>10</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -68,8 +68,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742508</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839675</millis>
   <sequence>11</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -79,8 +79,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742708</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839894</millis>
   <sequence>12</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -90,8 +90,8 @@
   <message>Set new color theme: Success.</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742714</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839909</millis>
   <sequence>13</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -101,8 +101,8 @@
   <message>Load saved settings: DONE.</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742720</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839909</millis>
   <sequence>14</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -112,8 +112,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:22</date>
-  <millis>1525011742729</millis>
+  <date>2018-04-30T09:23:59</date>
+  <millis>1525047839925</millis>
   <sequence>15</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -123,8 +123,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:23</date>
-  <millis>1525011743136</millis>
+  <date>2018-04-30T09:24:00</date>
+  <millis>1525047840299</millis>
   <sequence>16</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -134,19 +134,19 @@
   <message>Scan system...</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:23</date>
-  <millis>1525011743183</millis>
+  <date>2018-04-30T09:24:00</date>
+  <millis>1525047840346</millis>
   <sequence>17</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>found last saved serial port COM7</message>
+  <message>found COM18</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:23</date>
-  <millis>1525011743183</millis>
+  <date>2018-04-30T09:24:00</date>
+  <millis>1525047840346</millis>
   <sequence>18</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -156,19 +156,19 @@
   <message>Scan done.</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:25</date>
-  <millis>1525011745432</millis>
+  <date>2018-04-30T09:26:55</date>
+  <millis>1525048015137</millis>
   <sequence>19</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>Serial port COM7 save as default.</message>
+  <message>Serial port COM18 save as default.</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:25</date>
-  <millis>1525011745432</millis>
+  <date>2018-04-30T09:26:55</date>
+  <millis>1525048015137</millis>
   <sequence>20</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -178,47 +178,24 @@
   <message>Baud rate 115200 save as default.</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:25</date>
-  <millis>1525011745432</millis>
+  <date>2018-04-30T09:26:55</date>
+  <millis>1525048015152</millis>
   <sequence>21</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>Try to open port COM7, baud 115200, 8N1</message>
+  <message>Try to open port COM18, baud 115200, 8N1</message>
 </record>
 <record>
-  <date>2018-04-29T23:22:25</date>
-  <millis>1525011745464</millis>
+  <date>2018-04-30T09:26:55</date>
+  <millis>1525048015168</millis>
   <sequence>22</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>Open port COM7 - Success.</message>
+  <message>Open port COM18 - Success.</message>
 </record>
-<record>
-  <date>2018-04-30T01:22:06</date>
-  <millis>1525018926761</millis>
-  <sequence>23</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>FileTab cleared: Success.</message>
-</record>
-<record>
-  <date>2018-04-30T01:22:06</date>
-  <millis>1525018926761</millis>
-  <sequence>24</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>15</thread>
-  <message>File close: Success.</message>
-</record>
-</log>

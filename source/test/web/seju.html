@@ -4,33 +4,37 @@
     <meta charset="utf-8">
     <style type="text/css">
       body {
-        margin: 20%;
+        margin: 10%;
         background-color: #d2b48c;
         border: 2px dotted black;
-        padding: 120px;
+        padding: 10px;
       }
-      .bu{
-        height: 40px;
-        width: 120px;
+      .button{
+        background-color: #888888;
+        height: 50px;
+        width: 100%;
       }
     </style>
 </head>
 <body>
   <h2>UTTEC Home Led Controller</h2>
   <form>
-  LED RED:
-  <button class="bu" name="LED" value="ON_R" type="submit" >ON</button>
-  <button class="bu" name="LED" value="OFF_R" type="submit" >OFF</button><br><br>
-  LED BLUE:
-  <button class="bu" name="LED" value="ON_B" type="submit">ON</button>
-  <button class="bu" name="LED" value="OFF_B" type="submit">OFF</button><br><br>
-  LED Extern:
-  <button class="bu" name="LED" value="ON_E" type="submit">ON</button>
-  <button class="bu" name="LED" value="OFF_E" type="submit">OFF</button><br><br>
-  Exit:
-  <button class="bu" name="LED" value="Exit" type="submit">Exit</button><br><br>
-
+    <h1>
+      안방:
+      <button class="button" name="LED" value="ON_Red" type="submit" ><h1>%s</h1></button>
+    </h1>
+    <h1>
+      거실:
+      <button class="button" name="LED" value="ON_Blue" type="submit"><h1>ON</h1></button>
+    </h1>
+    <h1>
+      식당:
+      <button class="button" name="LED" value="ON_Ex" type="submit"><h1>ON</h1></button>
+    </h1>
+    <h1>
+      Exit:
+      <button class="button" name="LED" value="Exit" type="submit"><h1>Exit</h1></button>
+    </h1>
   </form>
-
 </body>
 </html>

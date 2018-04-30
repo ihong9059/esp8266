@@ -34,8 +34,8 @@ def wifiSta():
     sta.active(True)
     # 8764b1
     # sta.connect("UTTEC-8764b1", "123456789a")
-    # sta.connect("uttecSale4", "123456789a")
-    sta.connect("utsol_tc140", "09090909")
+    sta.connect("uttecSale4", "123456789a")
+    # sta.connect("utsol_tc140", "09090909")
     # sleep(3)
     count = 0
     while sta.isconnected() == False:
@@ -66,16 +66,13 @@ def webServer():
     with open('seju.html','r') as f:
         html_org=f.read()
 
-    # print(html_org)
-    # print('Size of html_org:{}'.format(len(html_org)))
-    #Setup Socket WebServer
     addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
     # addr = socket.getaddrinfo('192.168.185.14', 80)[0][-1]
     # addr = socket.getaddrinfo('192.168.4.1', 80)[0][-1]
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # s.bind(('', 80))
     s.bind(addr)
-    s.listen(5)
+    s.listen(1)
     print('My Addr:{}'.format(addr))
     count = 0
     dispList = ['SeJu FA','20180425','Red  Off', 'Blue Off','Ex   Off']
@@ -125,23 +122,13 @@ def webServer():
         if EXIT == 6:
             print('Bye Bye Seju Demo')
 
-            # findStr = '<h3>2018.04.28</h3>'
-            # findIndex = html.find(findStr)
-            # html = html[:findIndex]+'<h3>New String</h3>'+html[findIndex:]
             response = html
             mySend(conn, response, len(response))
-            # conn.send(response)
-            # conn.close()
+            conn.close()
             break
 
-        # findStr = '<h3>2018.04.28</h3>'
-        # findIndex = html.find(findStr)
-        # html = html[:findIndex]+'<h3>New String</h3>'+html[findIndex:]
         response = html
-        # print(response)
-        # print('size of html:{}'.format(len(response)))
         mySend(conn, response, len(response))
-        # conn.send(response)
         conn.close()
         dispOled(dispList)
 
