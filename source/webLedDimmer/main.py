@@ -39,8 +39,8 @@ def wifiSta():
     sta.active(True)
     # 8764b1
     # sta.connect("UTTEC-8764b1", "123456789a")
-    sta.connect("uttecSale4", "123456789a")
-    # sta.connect("utsol_tc140", "09090909")
+    # sta.connect("uttecSale4", "123456789a")
+    sta.connect("utsol_tc140", "09090909")
     # sleep(3)
     count = 0
     while sta.isconnected() == False:
@@ -51,7 +51,7 @@ def wifiSta():
     print('********************End of wifiSta')
 
 wifiAp()
-wifiSta()
+# wifiSta()
 
 def mySend(conn, msg, MSGLEN):
     # print('MSGLEN:{}'.format(MSGLEN))
