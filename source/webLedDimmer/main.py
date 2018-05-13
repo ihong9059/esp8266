@@ -91,6 +91,8 @@ def webServer():
         body=f.read()
 
     html = head + body
+    # with open('form.html','r') as f:
+    #     html=f.read()
 
     addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -119,7 +121,7 @@ def webServer():
                 break
         print('End of receive')
         # request = str(line)
-        # print(request)
+        print(request)
         ledRedOn = request.find('/?LED=ON_Red')
         ledRedOff = request.find('/?LED=OFF_Red')
         ledBlueOn = request.find('/?LED=ON_Blue')
@@ -154,6 +156,7 @@ def webServer():
             dispList[4] = 'Ex   Off'
         elif Exit == 6:
             print('Exit')
+            break
 
         length = cl.write(html)
         # print('Send length:{}'.format(length))

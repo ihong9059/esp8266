@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>양식 체크</title>
+<style type="text/css">
+ body {text-align:center}
+ hr {
+   width:500px;
+   height:1px;
+ }
+ #id, #pw1, #pw2 {border:1px solid gray}
+ a {
+   text-decoration:none;   
+   font-size:12px;
+   padding:5px;
+   color:orange;
+   border:1px solid orange;
+ }
+ a:hover{
+   background:orange;
+   padding:5px;
+   color:black;
+   border:1px solid red;
+ }
+ p {
+   font-size:12px;
+   text-align:left;
+ }
+ form {margin-left:40%}
+ #boldtext {font-weight:bold}
+ #redtext {
+   color:red;
+   font-size:12px;
+ }
+</style>
+</head>
+<body onLoad="myform.id.focus()">
+<img src="images/Joinus.jpg" width="438" height="336"><br>
+<hr>
+<p span style="text-align:center">사용할 아이디와 비밀번호를 입력하세요</p>
+<form id="myform" name="myform">
+ <p><span id="boldtext">아 이 디: </span><input id="id" name="id" type="text" value="" size="10" maxlength="15"></p>
+ <p><span id="boldtext">비밀번호: </span><input id="pw1" name="pw1" type="password" value="" size="10" maxlength="10"></p>
+ <p><span id="boldtext">비밀번호 확인: </span><input id="pw2" name="pw2" type="password" value="" size="10" maxlength="10"></p>
+ <p><input type="submit" name="bttn1" value="등록"><input type="button" name="bttn2" value="취소"></p>
+</form>
+<hr>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
