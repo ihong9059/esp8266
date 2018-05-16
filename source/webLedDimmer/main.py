@@ -77,7 +77,6 @@ def sendFrame(gid, pid, level):
     print('gid:{} pid:{} level:{}'.format(gid, pid, level))
     uart.write('------------ Ctr Start ----------------\r\n')
     uart.write('SendFrame:{}\r\n'.format(myFrame.frame))
-    # bslCtrClient.sendSocket(myFrame.getFrame())
 
 def webServer():
     print('------------------------- Setup Ap End -------------')

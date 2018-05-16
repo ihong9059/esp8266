@@ -1,13 +1,16 @@
 import usocket as socket
 import machine
 import network
-# from dispOled import dispOled
 from machine import Pin
 from machine import UART
 from time import sleep
 import os
-
+# import crc
 from frame import Frame
+from dispOled import dispOled
+# from crc import Crc
+
+# myHks = Crc()
 
 p0 = Pin(0, Pin.IN)
 pinRed=Pin(5, machine.Pin.OUT)
@@ -18,6 +21,7 @@ uart = UART(1, 115200)
 
 uartInput = ''
 gCount = 0
+
 def uartCallback(p):
     global gCount
     gCount += 1
@@ -25,14 +29,10 @@ def uartCallback(p):
     print('gCount:{}'.format(gCount))
     receive = input('Wait, input your request now==> ')
     print('I received from Machine:{}'.format(receive))
+    # myFrame.parseFrame(receive)
     # input
 
 p0.irq(trigger = Pin.IRQ_FALLING, handler = uartCallback)
-
-def irq_uart(obj):
-    print('Type:{}'.format(type(obj)))
-    temp = obj.any()
-    print('Type obj.any():{}, char:{}'.format(type(temp), temp))
 
 def wifiAp():
     import ubinascii
@@ -55,7 +55,8 @@ def wifiStationOn():
         print('wait wifi connection, elapsed Time:{}'.format(count))
         count +=1
     print('My ip Address:{}'.format(sta.ifconfig()))
-    print('********************End of wifiSta')
+    print('Files:{}'.format(os.listdir()))
+    print('********************End of wifiStation')
 
 def wifiStationOff():
     sta = network.WLAN(network.STA_IF)
@@ -64,20 +65,21 @@ def wifiStationOff():
 wifiAp()
 wifiStationOn()
 
+myFrame = Frame()
+
 def sendFrame(gid, pid, level):
     rxtx = 1; sub = 103;
     myFrame = Frame()
     myFrame.rate[0] = 1; myFrame.status[0] = 0;
     myFrame.Type[0] = 1;
-    myFrame.setLevel(int(level));
+    myFrame.level[0] = int(level);
 
-    myFrame.setRxTx(int(rxtx)); myFrame.setSub(int(sub))
-    myFrame.setGid(int(gid)); myFrame.setPid(int(pid));
+    myFrame.rxtx[0]= int(rxtx); myFrame.sub[0] = int(sub);
+    myFrame.gid[0] = int(gid); myFrame.pid[0] = int(pid);
     myFrame.setFrame()
     # print('gid:{} pid:{} level:{}'.format(gid, pid, level))
     uart.write('------------ Ctr Start ----------------\r\n')
     uart.write('SendFrame:{}\r\n'.format(myFrame.frame))
-    # bslCtrClient.sendSocket(myFrame.getFrame())
 
 def webServer():
     print('------------------------- Setup Ap End -------------')
@@ -101,7 +103,8 @@ def webServer():
     print('My Addr:{}'.format(addr))
     count = 0
     dispList = ['SeJu FA','20180425','Red  Off', 'Blue Off','Ex   Off']
-    # dispOled(dispList)
+    dispOled(dispList)
+
     exitFlag = False
     while not exitFlag:
         cl, addr = s.accept()
@@ -161,11 +164,12 @@ def webServer():
             exitFlag = True
             print('Exit')
 
+        dispOled(dispList)
         findStr = '<h3>2018.05.03</h3>'
         findIndex = html.find(findStr)
 
         global uartInput
-        newHtml = html[:findIndex]+'<h1>New String:::'+uartInput+'</h1>'+html[findIndex:]
+        newHtml = html[:findIndex]+'<h2>New String:::'+uartInput+'</h2>'+html[findIndex:]
         uartInput = ''
         length = cl.write(newHtml)
         cl.close()

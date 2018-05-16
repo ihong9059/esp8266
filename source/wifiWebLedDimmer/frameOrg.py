@@ -175,7 +175,7 @@ class Frame:
                 count += 1
 
             if crcResult == self.crc1[0]:
-                print('Crc Ok, Passed')
+                # print('Crc Ok, Passed')
                 if self.sub1[0] == 101: #Power Read
                     print('Power:{}'.format(self.rate1[0]+self.status1[0]*0x100+
                         self.dtime1[0]*0x10000))
@@ -192,7 +192,7 @@ class Frame:
                     self.returnPowerOrStatus = 'Command:{}'.format(self.printSubName(self.sub1[0]))
 
                 print('Cmd:{}, Sub:{}'.format(self.cmd1[0], self.sub1[0]))
-                print('{:04x},{:04x},{:04x}'.format(self.tbd01[0],self.tbd11[0],
+                # print('{:04x},{:04x},{:04x}'.format(self.tbd01[0],self.tbd11[0],
                     self.tbd21[0]))
                     # pidOrg1, rxtxOrg1, sensor1, micom1, gidOrg1,
                 self.returnMac = 'Gid:{}, Pid:{}, RxTx:{}:::{:04x},{:04x},{:04x}'.format(

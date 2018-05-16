@@ -1,8 +1,5 @@
+
 class Frame:
-    Master = 64; ServerReq = 100;
-    returnPowerOrStatus = ''
-    returnMac = ''
-    
     pidOrg = [0,1]; rxtxOrg = [Master,1];
     sensor = [1,1]; micom = [1,1]; gidOrg = [0,2]
     high = [100,1]; low = [1,1]; level = [50,1]; Type = [1,1]; rate = [1,1]
@@ -22,10 +19,10 @@ class Frame:
     # input buffer clear
     clearBuffFlag = False
     newFrameFlag = False
-
     def __init__(self):
         self.frame = ''
-        print('=================== frame start')
+        print('frame start')
+
 
     def getFrame(self):
         return self.frame
