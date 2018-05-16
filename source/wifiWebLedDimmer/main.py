@@ -19,7 +19,7 @@ pinEx=Pin(14, machine.Pin.OUT)
 
 uart = UART(1, 115200)
 
-uartInput = ''
+# uartInput = ''
 gCount = 0
 
 def uartCallback(p):
@@ -27,9 +27,9 @@ def uartCallback(p):
     gCount += 1
     print('pin change', p)
     print('gCount:{}'.format(gCount))
-    receive = input('Wait, input your request now==> ')
-    print('I received from Machine:{}'.format(receive))
-    # myFrame.parseFrame(receive)
+    uartInput = input('Wait, input your request now==> ')
+    print('I received from Machine:{}'.format(uartInput))
+    myFrame.parseFrame(uartInput)
     # input
 
 p0.irq(trigger = Pin.IRQ_FALLING, handler = uartCallback)
@@ -47,8 +47,8 @@ def wifiStationOn():
     sta.active(True)
     # 8764b1
     # sta.connect("UTTEC-8764b1", "123456789a")
-    sta.connect("uttecSale4", "123456789a")
-    # sta.connect("utsol_tc140", "09090909")
+    # sta.connect("uttecSale4", "123456789a")
+    sta.connect("utsol_tc140", "09090909")
     count = 0
     while sta.isconnected() == False:
         sleep(1)
@@ -81,19 +81,104 @@ def sendFrame(gid, pid, level):
     uart.write('------------ Ctr Start ----------------\r\n')
     uart.write('SendFrame:{}\r\n'.format(myFrame.frame))
 
+count = 0
+dispList = ['SeJu FA','20180425','Red  Off', 'Blue Off','Ex   Off']
+
+def procMain(cl,addr):
+    global count
+    global dispList
+
+    returnList = list()
+    count += 1
+    if count%2:
+        print("connection from %s, count %d" % (str(addr), int(count/2)))
+    cl_file = cl.makefile('rwb', 0)
+    request = ''
+    while True:
+        line = cl_file.readline()
+        request += str(line)
+        if not line or line == b'\r\n':
+            break
+    print(request)
+    ledRedOn = request.find('/?LED=ON_Red')
+    ledRedOff = request.find('/?LED=OFF_Red')
+    ledBlueOn = request.find('/?LED=ON_Blue')
+    ledBlueOff = request.find('/?LED=OFF_Blue')
+    ledExOn = request.find('/?LED=ON_Ex')
+    ledExOff = request.find('/?LED=OFF_Ex')
+    Exit = request.find('/?LED=Exit')
+    result = ''
+    if ledRedOn == 6 :
+        result = 'Red On'
+        print('Red On')
+        sendFrame(3, 3, 100)
+        dispList[2] = 'Red   On'
+        pinRed.off()
+    elif ledRedOff == 6:
+        result = 'Red Off'
+        sendFrame(3, 3, 0)
+        print('Red Off')
+        dispList[2] = 'Red  Off'
+        pinRed.on()
+    elif ledBlueOn == 6:
+        result = 'Blue On'
+        print('Blue On')
+        sendFrame(3, 4, 100)
+        dispList[3] = 'Blue  On'
+        pinBlue.off()
+    elif ledBlueOff == 6:
+        result = 'Blue Off'
+        print('Blue Off')
+        sendFrame(3, 4, 0)
+        dispList[3] = 'Blue Off'
+        pinBlue.on()
+    elif ledExOn == 6:
+        result = 'Ex On'
+        print('Ex On')
+        sendFrame(3, 5, 100)
+        dispList[4] = 'Ex    On'
+        pinEx.off()
+    elif ledExOff == 6:
+        result = 'Ex Off'
+        print('Ex Off')
+        sendFrame(3, 5, 0)
+        dispList[4] = 'Ex   Off'
+        pinEx.on()
+    elif Exit == 6:
+        result = 'Exit'
+        pinBlue.on()
+        pinRed.on()
+        pinEx.on()
+        exitFlag = True
+        print('Exit')
+    dispOled(dispList)
+
+    return result
+
+def procHtml(cl, html, result):
+    findStr = '<h3>2018.05.03</h3>'
+    findIndex = html.find(findStr)
+
+    # global uartInput
+    uartInput = 'I Received'
+    print()
+    newHtml = html[:findIndex]+'<h2>New String:::'+result+'</h2>'+html[findIndex:]
+    length = cl.write(newHtml)
+    print('length:{}'.format(length))
+    cl.close()
+
 def webServer():
+    global dispList
     print('------------------------- Setup Ap End -------------')
     print('Files:{}'.format(os.listdir()))
     # uart2IRQ = uart.irq(trigger = UART.RX_ANY, priority = 1, handler = irq_uart, wake=machine.IDLE)
     # html_org = ''
-    head = ''
-    body = ''
+    # head = ''
+    # body = ''
     with open('head.html','r') as f:
-        head=f.read()
+        html=f.read()
     with open('body.html','r') as f:
-        body=f.read()
-
-    html = head + body
+        html += f.read()
 
     addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -101,78 +186,12 @@ def webServer():
     s.bind(addr)
     s.listen(1)
     print('My Addr:{}'.format(addr))
-    count = 0
-    dispList = ['SeJu FA','20180425','Red  Off', 'Blue Off','Ex   Off']
     dispOled(dispList)
 
     exitFlag = False
     while not exitFlag:
         cl, addr = s.accept()
-        count += 1
-        if count%2:
-            print("connection from %s, count %d" % (str(addr), int(count/2)))
-        cl_file = cl.makefile('rwb', 0)
-        request = ''
-        while True:
-            line = cl_file.readline()
-            request += str(line)
-            if not line or line == b'\r\n':
-                break
-        print(request)
-        ledRedOn = request.find('/?LED=ON_Red')
-        ledRedOff = request.find('/?LED=OFF_Red')
-        ledBlueOn = request.find('/?LED=ON_Blue')
-        ledBlueOff = request.find('/?LED=OFF_Blue')
-        ledExOn = request.find('/?LED=ON_Ex')
-        ledExOff = request.find('/?LED=OFF_Ex')
-        Exit = request.find('/?LED=Exit')
-
-        if ledRedOn == 6 :
-            print('Red On')
-            sendFrame(3, 3, 100)
-            dispList[2] = 'Red   On'
-            pinRed.off()
-        elif ledRedOff == 6:
-            sendFrame(3, 3, 0)
-            print('Red Off')
-            dispList[2] = 'Red  Off'
-            pinRed.on()
-        elif ledBlueOn == 6:
-            print('Blue On')
-            sendFrame(3, 4, 100)
-            dispList[3] = 'Blue  On'
-            pinBlue.off()
-        elif ledBlueOff == 6:
-            print('Blue Off')
-            sendFrame(3, 4, 0)
-            dispList[3] = 'Blue Off'
-            pinBlue.on()
-        elif ledExOn == 6:
-            print('Ex On')
-            sendFrame(3, 5, 100)
-            dispList[4] = 'Ex    On'
-            pinEx.off()
-        elif ledExOff == 6:
-            print('Ex Off')
-            sendFrame(3, 5, 0)
-            dispList[4] = 'Ex   Off'
-            pinEx.on()
-        elif Exit == 6:
-            pinBlue.on()
-            pinRed.on()
-            pinEx.on()
-            exitFlag = True
-            print('Exit')
-
-        dispOled(dispList)
-        findStr = '<h3>2018.05.03</h3>'
-        findIndex = html.find(findStr)
-
-        global uartInput
-        newHtml = html[:findIndex]+'<h2>New String:::'+uartInput+'</h2>'+html[findIndex:]
-        uartInput = ''
-        length = cl.write(newHtml)
-        cl.close()
+        procHtml(cl, html, procMain(cl, addr))
 
 if __name__ == '__main__':
     webServer()

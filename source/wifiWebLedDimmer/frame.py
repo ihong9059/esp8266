@@ -1,8 +1,10 @@
+# from datetime import datetime
+
 class Frame:
     Master = 64; ServerReq = 100;
     returnPowerOrStatus = ''
     returnMac = ''
-    
+
     pidOrg = [0,1]; rxtxOrg = [Master,1];
     sensor = [1,1]; micom = [1,1]; gidOrg = [0,2]
     high = [100,1]; low = [1,1]; level = [50,1]; Type = [1,1]; rate = [1,1]
@@ -62,7 +64,7 @@ class Frame:
         return crc16.update(data)
 
     def setReceiveFrame(self):
-        dt = datetime.now()
+        # dt = datetime.now()
         self.setCrcFrame(self.frameList)
         self.frame = '{'
         for numList in self.frameList:
@@ -73,9 +75,9 @@ class Frame:
                 self.frame += '%02x' % numList[0]
         self.frame += '}'
         with open('receive.txt','a') as fp:
-            writeStr = 'Receive:: ' + str(dt.date()) + ':' + str(dt.time())
+            writeStr = 'Receive:: '+ self.frame
             print(writeStr, file = fp)
-            print(self.frame, file = fp)
+            # print(self.frame, file = fp)
         print(self.frame)
 
     def printSubName(self, sub):
@@ -154,7 +156,7 @@ class Frame:
                     # self.tbd21[0]))
                     # pidOrg1, rxtxOrg1, sensor1, micom1, gidOrg1,
                 self.returnMac = 'Gid:{}, Pid:{}, RxTx:{}:::{:04x},{:04x},{:04x}'.format(
-                    self.gidOrg1[0], self.pidOrg[0], self.rxtxOrg[0],
+                    self.gidOrg[0], self.pidOrg[0], self.rxtxOrg[0],
                     self.tbd0[0],self.tbd1[0],self.tbd2[0])
                 self.newFrameFlag = True
                 self.setReceiveFrame()
