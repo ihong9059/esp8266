@@ -56,7 +56,7 @@ class Frame:
             else:
                 self.frame += '%02x' % numList[0]
         self.frame += '}'
-        print('SendFrame:{}'.format(self.frame))
+        # print('SendFrame:{}'.format(self.frame))
         # self.returnPowerOrStatus = 'No Ack From Gateway'
     def getCrc(self, data):
         from crc import CRC
@@ -74,9 +74,9 @@ class Frame:
             else:
                 self.frame += '%02x' % numList[0]
         self.frame += '}'
-        with open('receive.txt','a') as fp:
-            writeStr = 'Receive:: '+ self.frame
-            print(writeStr, file = fp)
+        # with open('receive.txt','a') as fp:
+        #     writeStr = 'Receive:: '+ self.frame
+        #     print(writeStr, file = fp)
             # print(self.frame, file = fp)
         print(self.frame)
 

@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136705</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360216</millis>
   <sequence>5</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Load saved settings: Firmware:MicroPython</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136750</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360279</millis>
   <sequence>6</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136769</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360294</millis>
   <sequence>7</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136775</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360310</millis>
   <sequence>8</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -46,8 +46,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136783</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360310</millis>
   <sequence>9</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -57,8 +57,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136785</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360325</millis>
   <sequence>10</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -68,8 +68,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136794</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360325</millis>
   <sequence>11</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -79,8 +79,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136936</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360559</millis>
   <sequence>12</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -90,8 +90,8 @@
   <message>Set new color theme: Success.</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136948</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360575</millis>
   <sequence>13</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -101,8 +101,8 @@
   <message>Load saved settings: DONE.</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136953</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360575</millis>
   <sequence>14</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -112,8 +112,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:56</date>
-  <millis>1526461136968</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360591</millis>
   <sequence>15</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -123,8 +123,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:57</date>
-  <millis>1526461137473</millis>
+  <date>2018-05-17T11:32:40</date>
+  <millis>1526524360996</millis>
   <sequence>16</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -134,19 +134,19 @@
   <message>Scan system...</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:57</date>
-  <millis>1526461137483</millis>
+  <date>2018-05-17T11:32:41</date>
+  <millis>1526524361043</millis>
   <sequence>17</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>found last saved serial port COM30</message>
+  <message>found last saved serial port COM38</message>
 </record>
 <record>
-  <date>2018-05-16T17:58:57</date>
-  <millis>1526461137487</millis>
+  <date>2018-05-17T11:32:41</date>
+  <millis>1526524361043</millis>
   <sequence>18</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -156,20 +156,75 @@
   <message>Scan done.</message>
 </record>
 <record>
-  <date>2018-05-16T17:59:00</date>
-  <millis>1526461140755</millis>
+  <date>2018-05-17T11:32:45</date>
+  <millis>1526524365778</millis>
   <sequence>19</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>Serial port COM30 save as default.</message>
+  <message>Try to open file webrepl_setup.py</message>
 </record>
 <record>
-  <date>2018-05-16T17:59:00</date>
-  <millis>1526461140775</millis>
+  <date>2018-05-17T11:32:45</date>
+  <millis>1526524365778</millis>
   <sequence>20</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>File name: C:\esp8266\Esp8266Flasher\webrepl_setup.py</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:45</date>
+  <millis>1526524365793</millis>
+  <sequence>21</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to load file webrepl_setup.py</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:46</date>
+  <millis>1526524366043</millis>
+  <sequence>22</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Loading webrepl_setup.py: Success.</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:46</date>
+  <millis>1526524366058</millis>
+  <sequence>23</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open "webrepl_setup.py": Success.</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:47</date>
+  <millis>1526524367587</millis>
+  <sequence>24</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM38 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:47</date>
+  <millis>1526524367587</millis>
+  <sequence>25</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -178,42 +233,1186 @@
   <message>Baud rate 115200 save as default.</message>
 </record>
 <record>
-  <date>2018-05-16T17:59:00</date>
-  <millis>1526461140779</millis>
-  <sequence>21</sequence>
+  <date>2018-05-17T11:32:47</date>
+  <millis>1526524367603</millis>
+  <sequence>26</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>Try to open port COM30, baud 115200, 8N1</message>
+  <message>Try to open port COM38, baud 115200, 8N1</message>
 </record>
 <record>
-  <date>2018-05-16T17:59:00</date>
-  <millis>1526461140817</millis>
-  <sequence>22</sequence>
+  <date>2018-05-17T11:32:47</date>
+  <millis>1526524367634</millis>
+  <sequence>27</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>Open port COM30 - Success.</message>
+  <message>Open port COM38 - Success.</message>
 </record>
 <record>
-  <date>2018-05-16T18:09:51</date>
-  <millis>1526461791853</millis>
-  <sequence>23</sequence>
+  <date>2018-05-17T11:32:53</date>
+  <millis>1526524373281</millis>
+  <sequence>28</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>15</thread>
-  <message>Close port COM30 - Success.</message>
+  <message>DataSender: start "Dumb Mode"</message>
 </record>
 <record>
-  <date>2018-05-16T18:55:08</date>
-  <millis>1526464508745</millis>
-  <sequence>24</sequence>
+  <date>2018-05-17T11:32:53</date>
+  <millis>1526524373281</millis>
+  <sequence>29</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:53</date>
+  <millis>1526524373328</millis>
+  <sequence>30</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import webrepl_setup</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:53</date>
+  <millis>1526524373359</millis>
+  <sequence>31</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:53</date>
+  <millis>1526524373437</millis>
+  <sequence>32</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# webrepl.start()</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:53</date>
+  <millis>1526524373515</millis>
+  <sequence>33</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:53</date>
+  <millis>1526524373515</millis>
+  <sequence>34</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import webrepl</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:53</date>
+  <millis>1526524373546</millis>
+  <sequence>35</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:webrepl.start()</message>
+</record>
+<record>
+  <date>2018-05-17T11:32:53</date>
+  <millis>1526524373593</millis>
+  <sequence>36</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Operation done. Duration = 327 ms</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:06</date>
+  <millis>1526524386487</millis>
+  <sequence>37</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:hks&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:17</date>
+  <millis>1526524397606</millis>
+  <sequence>38</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:hongks&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:34</date>
+  <millis>1526524414641</millis>
+  <sequence>39</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:34</date>
+  <millis>1526524414704</millis>
+  <sequence>40</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:34</date>
+  <millis>1526524414750</millis>
+  <sequence>41</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import webrepl_setup</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:34</date>
+  <millis>1526524414797</millis>
+  <sequence>42</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:34</date>
+  <millis>1526524414875</millis>
+  <sequence>43</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# webrepl.start()</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:34</date>
+  <millis>1526524414891</millis>
+  <sequence>44</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:34</date>
+  <millis>1526524414906</millis>
+  <sequence>45</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import webrepl</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:34</date>
+  <millis>1526524414938</millis>
+  <sequence>46</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:webrepl.start()</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:34</date>
+  <millis>1526524414969</millis>
+  <sequence>47</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Operation done. Duration = 328 ms</message>
+</record>
+<record>
+  <date>2018-05-17T11:33:55</date>
+  <millis>1526524435896</millis>
+  <sequence>48</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:e&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T11:34:01</date>
+  <millis>1526524441211</millis>
+  <sequence>49</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:ehong&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T11:34:04</date>
+  <millis>1526524444433</millis>
+  <sequence>50</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:ehong&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T11:34:10</date>
+  <millis>1526524450266</millis>
+  <sequence>51</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:y&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T11:37:16</date>
+  <millis>1526524636602</millis>
+  <sequence>52</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T11:42:11</date>
+  <millis>1526524931940</millis>
+  <sequence>53</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:7&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T11:42:13</date>
+  <millis>1526524933539</millis>
+  <sequence>54</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:7&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T12:37:58</date>
+  <millis>1526528278084</millis>
+  <sequence>55</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2018-05-17T12:37:58</date>
+  <millis>1526528278095</millis>
+  <sequence>56</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-05-17T12:37:58</date>
+  <millis>1526528278156</millis>
+  <sequence>57</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import webrepl_setup</message>
+</record>
+<record>
+  <date>2018-05-17T12:37:58</date>
+  <millis>1526528278275</millis>
+  <sequence>58</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#</message>
+</record>
+<record>
+  <date>2018-05-17T12:37:58</date>
+  <millis>1526528278340</millis>
+  <sequence>59</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# webrepl.start()</message>
+</record>
+<record>
+  <date>2018-05-17T12:37:58</date>
+  <millis>1526528278384</millis>
+  <sequence>60</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-05-17T12:37:58</date>
+  <millis>1526528278417</millis>
+  <sequence>61</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import webrepl</message>
+</record>
+<record>
+  <date>2018-05-17T12:37:58</date>
+  <millis>1526528278457</millis>
+  <sequence>62</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:webrepl.start()</message>
+</record>
+<record>
+  <date>2018-05-17T12:37:58</date>
+  <millis>1526528278475</millis>
+  <sequence>63</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Operation done. Duration = 400 ms</message>
+</record>
+<record>
+  <date>2018-05-17T12:39:17</date>
+  <millis>1526528357299</millis>
+  <sequence>64</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM38 - Success.</message>
+</record>
+<record>
+  <date>2018-05-17T12:39:19</date>
+  <millis>1526528359500</millis>
+  <sequence>65</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM38 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T12:39:19</date>
+  <millis>1526528359504</millis>
+  <sequence>66</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T12:39:19</date>
+  <millis>1526528359507</millis>
+  <sequence>67</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM38, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-05-17T12:39:19</date>
+  <millis>1526528359519</millis>
+  <sequence>68</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM38 - Success.</message>
+</record>
+<record>
+  <date>2018-05-17T12:39:31</date>
+  <millis>1526528371976</millis>
+  <sequence>69</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM38 - Success.</message>
+</record>
+<record>
+  <date>2018-05-17T12:41:55</date>
+  <millis>1526528515954</millis>
+  <sequence>70</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM38 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T12:41:55</date>
+  <millis>1526528515969</millis>
+  <sequence>71</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T12:41:55</date>
+  <millis>1526528515977</millis>
+  <sequence>72</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM38, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-05-17T12:41:55</date>
+  <millis>1526528515997</millis>
+  <sequence>73</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM38 - Success.</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:02</date>
+  <millis>1526528522206</millis>
+  <sequence>74</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:02</date>
+  <millis>1526528522223</millis>
+  <sequence>75</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:02</date>
+  <millis>1526528522281</millis>
+  <sequence>76</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import webrepl_setup</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:02</date>
+  <millis>1526528522358</millis>
+  <sequence>77</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:02</date>
+  <millis>1526528522403</millis>
+  <sequence>78</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# webrepl.start()</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:02</date>
+  <millis>1526528522419</millis>
+  <sequence>79</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:02</date>
+  <millis>1526528522448</millis>
+  <sequence>80</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import webrepl</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:02</date>
+  <millis>1526528522465</millis>
+  <sequence>81</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:webrepl.start()</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:02</date>
+  <millis>1526528522480</millis>
+  <sequence>82</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Operation done. Duration = 284 ms</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:09</date>
+  <millis>1526528529048</millis>
+  <sequence>83</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:e&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:12</date>
+  <millis>1526528532728</millis>
+  <sequence>84</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:ehong&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:14</date>
+  <millis>1526528534853</millis>
+  <sequence>85</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:ehong&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T12:42:20</date>
+  <millis>1526528540641</millis>
+  <sequence>86</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:y&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T14:10:59</date>
+  <millis>1526533859045</millis>
+  <sequence>87</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:y&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T14:51:28</date>
+  <millis>1526536288403</millis>
+  <sequence>88</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>jssc.SerialPortException: Port name - COM38; Method name - setEventsMask(); Exception type - Can't set mask.</message>
+</record>
+<record>
+  <date>2018-05-17T14:51:28</date>
+  <millis>1526536288426</millis>
+  <sequence>89</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM38 - unknown error.</message>
+</record>
+<record>
+  <date>2018-05-17T14:51:29</date>
+  <millis>1526536289648</millis>
+  <sequence>90</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM38 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T14:51:29</date>
+  <millis>1526536289650</millis>
+  <sequence>91</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T14:51:29</date>
+  <millis>1526536289652</millis>
+  <sequence>92</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM38, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-05-17T14:51:29</date>
+  <millis>1526536289687</millis>
+  <sequence>93</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM38 - Success.</message>
+</record>
+<record>
+  <date>2018-05-17T14:52:41</date>
+  <millis>1526536361867</millis>
+  <sequence>94</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM38 - Success.</message>
+</record>
+<record>
+  <date>2018-05-17T14:54:25</date>
+  <millis>1526536465630</millis>
+  <sequence>95</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM38 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T14:54:25</date>
+  <millis>1526536465633</millis>
+  <sequence>96</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T14:54:25</date>
+  <millis>1526536465645</millis>
+  <sequence>97</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM38, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-05-17T14:54:25</date>
+  <millis>1526536465660</millis>
+  <sequence>98</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM38 - Success.</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:18</date>
+  <millis>1526536518855</millis>
+  <sequence>99</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:18</date>
+  <millis>1526536518979</millis>
+  <sequence>100</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:19</date>
+  <millis>1526536519033</millis>
+  <sequence>101</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:19</date>
+  <millis>1526536519064</millis>
+  <sequence>102</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import webrepl_setup</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:19</date>
+  <millis>1526536519106</millis>
+  <sequence>103</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:#</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:19</date>
+  <millis>1526536519146</millis>
+  <sequence>104</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:# webrepl.start()</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:19</date>
+  <millis>1526536519161</millis>
+  <sequence>105</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:19</date>
+  <millis>1526536519179</millis>
+  <sequence>106</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:import webrepl</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:19</date>
+  <millis>1526536519187</millis>
+  <sequence>107</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:webrepl.start()</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:19</date>
+  <millis>1526536519541</millis>
+  <sequence>108</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Operation done. Duration = 569 ms</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:24</date>
+  <millis>1526536524178</millis>
+  <sequence>109</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:e&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:26</date>
+  <millis>1526536526152</millis>
+  <sequence>110</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:ehong&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:27</date>
+  <millis>1526536527718</millis>
+  <sequence>111</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:ehong&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T14:55:32</date>
+  <millis>1526536532345</millis>
+  <sequence>112</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:y&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T14:59:52</date>
+  <millis>1526536792603</millis>
+  <sequence>113</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:help(str)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:00:25</date>
+  <millis>1526536825517</millis>
+  <sequence>114</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:help(str)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:00:26</date>
+  <millis>1526536826768</millis>
+  <sequence>115</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:help(str)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:10:10</date>
+  <millis>1526537410740</millis>
+  <sequence>116</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:os.listdir()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:12:25</date>
+  <millis>1526537545463</millis>
+  <sequence>117</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:help(os)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:13:06</date>
+  <millis>1526537586200</millis>
+  <sequence>118</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:print(receive.txt)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:14:04</date>
+  <millis>1526537644510</millis>
+  <sequence>119</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:os.ilistdir()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:15:21</date>
+  <millis>1526537721086</millis>
+  <sequence>120</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:for i in os.ilistdir():&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:15:32</date>
+  <millis>1526537732678</millis>
+  <sequence>121</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:print(i)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:15:34</date>
+  <millis>1526537734278</millis>
+  <sequence>122</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:print(i)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:15:35</date>
+  <millis>1526537735302</millis>
+  <sequence>123</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:print(i)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:15:39</date>
+  <millis>1526537739216</millis>
+  <sequence>124</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:15:39</date>
+  <millis>1526537739787</millis>
+  <sequence>125</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T15:15:40</date>
+  <millis>1526537740396</millis>
+  <sequence>126</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-05-17T16:11:44</date>
+  <millis>1526541104698</millis>
+  <sequence>127</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>jssc.SerialPortException: Port name - COM38; Method name - setEventsMask(); Exception type - Can't set mask.</message>
+</record>
+<record>
+  <date>2018-05-17T16:11:44</date>
+  <millis>1526541104702</millis>
+  <sequence>128</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM38 - unknown error.</message>
+</record>
+<record>
+  <date>2018-05-17T16:11:45</date>
+  <millis>1526541105981</millis>
+  <sequence>129</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM38 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T16:11:45</date>
+  <millis>1526541105984</millis>
+  <sequence>130</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-05-17T16:11:45</date>
+  <millis>1526541105987</millis>
+  <sequence>131</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM38, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-05-17T16:11:46</date>
+  <millis>1526541106007</millis>
+  <sequence>132</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM38 - Success.</message>
+</record>
+<record>
+  <date>2018-05-17T18:12:04</date>
+  <millis>1526548324839</millis>
+  <sequence>133</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -222,9 +1421,9 @@
   <message>FileTab cleared: Success.</message>
 </record>
 <record>
-  <date>2018-05-16T18:55:08</date>
-  <millis>1526464508805</millis>
-  <sequence>25</sequence>
+  <date>2018-05-17T18:12:04</date>
+  <millis>1526548324855</millis>
+  <sequence>134</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
